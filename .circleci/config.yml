@@ -6,7 +6,7 @@ jobs:
       steps:
         - checkout
         - run:
-            name: Install Dendencies
+            name: Install Dependencies
             command: |
               echo 'export PATH=~$PATH:~/.local/bin' >> $BASH_ENV && source $BASH_ENV
               pip install --user -r requirements.txt

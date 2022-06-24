@@ -15,7 +15,8 @@ def wrap_html(message):
             </center>
             </div>
         </body>
-        </html>""".format(message)
+        </html>
+        """.format(message)
     return html
 
 
